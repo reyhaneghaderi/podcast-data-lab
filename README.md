@@ -88,6 +88,21 @@ Place your raw podcast data file (CSV or JSON) in the `data/` folder and update 
     - Stochastic Modeling of Audience Dynamics
        Apply stochastic processes (Poisson, Hawkes) to model listener arrivals and long-term growth.
       Connects directly with my background in stochastic data science.  
+  # 📚 What I Learned
+
+        - How to build an end-to-end ML pipeline: from raw podcast metadata → feature engineering → model evaluation.
+
+        - Practical differences between linear models (Linear, Ridge, Lasso) and tree-based models (Random Forest) in terms of performance and interpretability.
+
+        - Importance of feature importance analysis for explaining model predictions and identifying key drivers (episode length as the dominant factor).
+
+        -  How regularization (Ridge/Lasso) penalizes less useful features (guest popularity, minor metadata).
+
+        - Hands-on experience with cross-validation, error metrics (RMSE, R²), and visualization.
+
+         - The importance of reproducibility: structuring notebooks, documenting results, and saving plots for clear reporting.
+
+         - Awareness of research-level extensions (bias detection, causal inference, multimodal learning) and how industry projects can inspire academic research.
 
 ## License
 
