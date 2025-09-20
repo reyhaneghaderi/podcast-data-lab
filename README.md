@@ -3,25 +3,18 @@
 A simple, end-to-end pipeline for podcast data analysis and audience prediction.
 # Technologies Used
 
-  -**Languages: Python 3
+  - Languages: Python 3
 
-  - **Libraries: pandas, NumPy, scikit-learn, matplotlib, seaborn
+  - Libraries: pandas, NumPy, scikit-learn, matplotlib, seaborn
 
-   -**Models: Linear, Ridge, Lasso, Random Forest Regression
+   - Models: Linear, Ridge, Lasso, Random Forest Regression
 
-  -**Environment: Jupyter Notebook
+  -  Environment: Jupyter Notebook
 
 ## Contents
 
 - **podcast.ipynb**: use Rndomforestregression.
 - **podcast-regression.ipynb**: Load, clean, and explore podcast metadata (titles, dates, durations, listener counts). Creates charts and features (day of week, keywords).Train and evaluate regression models (Linear, Ridge, Lasso) to predict listener counts and find growth drivers.
-
-
-
-## Usage
-
-- Open **podcast.ipynb** in JupyterLab or Jupyter Notebook. Follow cells to load data, clean, visualize, and engineer features.
-- Open **podcast-regression.ipynb** to train models, run cross-validation, and view performance plots.
 
 ## Results
 
@@ -68,21 +61,33 @@ The Random Forest model’s built-in feature_importances_ shows relative contrib
 
 Place your raw podcast data file (CSV or JSON) in the `data/` folder and update the file path in the first cell of `podcast.ipynb`.
 
-## Dependencies
+# Key Skills Demonstrated
 
-- pandas
-- numpy
-- matplotlib
-- scikit-learn
-- seaborn (optional for extra plots)
+  - End-to-end ML pipeline design.
 
-## Dependencies
+  - Feature engineering from structured metadata.
 
-- pandas
-- numpy
-- matplotlib
-- scikit-learn
-- seaborn (optional for extra plots)
+  - Regression modeling (Linear, Ridge, Lasso, Random Forest).
+
+  - Model evaluation (RMSE, R², cross-validation).
+
+  - Interpretability: comparing coefficients vs. feature_importances_.
+
+  - Visualization with matplotlib and seaborn.
+  # Impact & Applications
+
+    - Helps media companies optimize podcast strategies (episode length, ad placement).
+
+    - Supports data-driven content recommendations and marketing.
+
+     - Demonstrates transferable skills in audience prediction, recommender systems, and digital media analytics.
+  # Research Extensions
+    - Multimodal Analysis
+        Integrate NLP embeddings (titles, transcripts) and audio embeddings (wav2vec2, MFCCs).
+        Use multimodal fusion to capture richer signals for audience prediction.
+    - Stochastic Modeling of Audience Dynamics
+       Apply stochastic processes (Poisson, Hawkes) to model listener arrivals and long-term growth.
+      Connects directly with my background in stochastic data science.  
 
 ## License
 
