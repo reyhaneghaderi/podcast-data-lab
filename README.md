@@ -3,13 +3,13 @@
 A simple, end-to-end pipeline for podcast data analysis and audience prediction.
 # Technologies Used
 
-  **Languages: Python 3
+  -**Languages: Python 3
 
-   **Libraries: pandas, NumPy, scikit-learn, matplotlib, seaborn
+  - **Libraries: pandas, NumPy, scikit-learn, matplotlib, seaborn
 
-   **Models: Linear, Ridge, Lasso, Random Forest Regression
+   -**Models: Linear, Ridge, Lasso, Random Forest Regression
 
-  **Environment: Jupyter Notebook
+  -**Environment: Jupyter Notebook
 
 ## Contents
 
